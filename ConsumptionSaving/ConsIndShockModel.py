@@ -1448,7 +1448,7 @@ class PerfForesightConsumerType(AgentType):
                                             vFunc = vFunc_terminal_, mNrmMin=0.0, hNrm=0.0, 
                                             MPCmin=1.0, MPCmax=1.0)
     time_vary_ = ['LivPrb','PermGroFac']
-    time_inv_  = ['CRRA','Rfree','DiscFac']
+    time_inv_  = ['CRRA','Rfree','Rboro', 'Rsave','DiscFac']
     poststate_vars_ = ['aNrmNow','pLvlNow']
     shock_vars_ = []
     
